@@ -43,11 +43,6 @@ conda install -c omnia mdtraj  (similarly install other libraries using conda or
 spatial-density-distribution.py takes 3 standard inputs from user i.e. dcd (obtained using NAMD simulation program), pdb file, model residue name (can be obatained from segid column of PDB), and psf (toplogy file)
 
 To run the automated tests for this system
-run-spd-python-code.sh can be used as:
-bash run-spd-python-code.sh
-run-spd-python-code.sh takes arguments from another bash files copies data into successive folders and use python code for generating SPDs.
-
-
-## Output
-![Test Image 1](example-spd-plot.png)
-
+cp.sh can be used as:
+bash cp.sh
+please note that cp.sh takes arguments from another bash files copies data into successive folders and use python code for generating SPDs
